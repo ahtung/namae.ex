@@ -1,7 +1,8 @@
 # Namae
 [![Build Status](https://travis-ci.org/dunyakirkali/namae.ex.svg?branch=master)](https://travis-ci.org/dunyakirkali/namae.ex)
 [![Coverage Status](https://coveralls.io/repos/dunyakirkali/namae.ex/badge.svg?branch=master)](https://coveralls.io/r/dunyakirkali/namae.ex?branch=master)
-[![Hex.pm](https://img.shields.io/hexpm/v/namae.svg?style=flat-square)](https://hex.pm/packages/namae)
+[![Hex.pm version](https://img.shields.io/hexpm/v/namae.svg?style=flat-square)](https://hex.pm/packages/namae)
+[![Hex.pm downloads](https://img.shields.io/hexpm/dt/namae.svg)](https://hex.pm/packages/namae)
 
 **TODO: Add description**
 
