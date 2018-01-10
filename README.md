@@ -1,4 +1,6 @@
 # Namae
+[![Build Status](https://travis-ci.org/dunyakirkali/namae.ex.svg?branch=master)](https://travis-ci.org/dunyakirkali/namae.ex)
+[![Hex.pm](https://img.shields.io/hexpm/v/namae.svg?style=flat-square)](https://hex.pm/packages/namae)
 
 **TODO: Add description**
 
@@ -18,4 +20,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/namae](https://hexdocs.pm/namae).
-
