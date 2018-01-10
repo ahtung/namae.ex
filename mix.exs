@@ -8,7 +8,8 @@ defmodule Namae.Mixfile do
       elixir: "~> 1.3",
       start_permanent: Mix.env == :prod,
       deps: deps(),
-      preferred_cli_env: [espec: :test]
+      preferred_cli_env: [espec: :test],
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
@@ -22,7 +23,8 @@ defmodule Namae.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:espec, "~> 1.4.6", only: :test}
+      {:espec, "~> 1.4.6", only: :test},
+      {:excoveralls, "~> 0.8", only: :test}
     ]
   end
 end

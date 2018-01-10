@@ -18,6 +18,7 @@ matrix:
 sudo: false
 script:
   - mix espec
+  - mix coveralls.travis
 notifications:
   recipients:
     - dunyakirkali@gmail.com

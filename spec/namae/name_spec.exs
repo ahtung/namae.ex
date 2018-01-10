@@ -1,7 +1,7 @@
 defmodule NameSpec do
   use ESpec
   
-  describe ".new" do
+  describe "new" do
 
     it "returns an empty name by default" do
       expect(Name.new).to eq(%Name{})
@@ -16,7 +16,7 @@ defmodule NameSpec do
     end
   end
   
-  describe "#initials" do
+  describe "initials" do
     let :name, do: Name.new(%{family: "Poe", given: "Edgar A."})
     
     it "returns the name's initials" do
