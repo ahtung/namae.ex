@@ -15,4 +15,16 @@ defmodule NameSpec do
       expect(Name.new(%{foo: "bar"})).to eq(%Name{})
     end
   end
+  
+  describe "#initials" do
+    let :name, do: Name.new(%{family: "Poe", given: "Edgar A."})
+    
+    it "returns the name's initials" do
+      expect(Name.initials(name)).to eq("E.A.P.")
+    end
+
+    it "returns the name's initials but leaves the family name expanded" do
+      expect(Name.initials(name, expand: true)).to eq("E.A. Poe")
+    end
+  end
 end
