@@ -8,8 +8,8 @@ defmodule Namae.Mixfile do
       elixir: "~> 1.3",
       start_permanent: Mix.env == :prod,
       deps: deps(),
-      preferred_cli_env: [espec: :test],
-      test_coverage: [tool: ExCoveralls]
+      preferred_cli_env: [espec: :test, coveralls: :test],
+      test_coverage: [tool: ExCoveralls, test_task: "espec"]
     ]
   end
 
